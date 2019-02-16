@@ -1,0 +1,13 @@
+{
+  "name": "scss",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "build": "rm dist/* && parcel build *.scss"
+  },
+  "devDependencies": {
+    "cssnano": "^4.1.10",
+    "sass": "^1.17.0"
+  }
+}
